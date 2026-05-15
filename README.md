@@ -1,5 +1,5 @@
 <!-- 👋 Header -->
-# Hi There, I'm Hassan Raza 👋
+                                                                       # Hi There, I'm Hassan Raza 👋
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&duration=2000&pause=300&color=10B981&center=true&vCenter=true&width=800&lines=RF+%26+Wireless+Network+Engineer;DAS+Design+%26+Optimization+Specialist;Python+Automation+%26+Data+Engineer;AI%2FML+Enthusiast+for+Wireless+Systems;Aspiring+Telecom+Solutions+Architect)](https://git.io/typing-svg)
 
