@@ -93,12 +93,10 @@
 
 ### 📊 GitHub Analytics
 
-| ![Hassan's GitHub Stats](https://github-readme-stats.vercel.app/api?username=HassanRaz-A&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true) | ![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=HassanRaz-A&theme=tokyonight&hide_border=true) |
+| ![Hassan's GitHub Stats](https://github-readme-stats.shion.dev/api?username=HassanRaz-A&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true) | ![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=HassanRaz-A&theme=tokyonight&hide_border=true) |
 | --- | --- |
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=HassanRaz-A&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&layout=compact)
-
----
+![Top Languages](https://github-readme-stats.shion.dev/api/top-langs/?username=HassanRaz-A&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&layout=compact)
 
 ### 🏆 GitHub Trophies
 
