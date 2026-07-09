@@ -10,9 +10,8 @@
 
 <div align="center">
 
-<!-- TODO: replace the URLs below with your real Portfolio and LinkedIn links -->
-[![Portfolio](https://img.shields.io/badge/Portfolio-0F172A?style=flat-square&logo=vercel&logoColor=white&labelColor=0F172A)](https://your-portfolio.com)&nbsp;&nbsp;
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0F172A?style=flat-square&logo=linkedin&logoColor=0A66C2&labelColor=0F172A)](https://linkedin.com/in/YOUR-LINKEDIN)&nbsp;&nbsp;
+[![Portfolio](https://img.shields.io/badge/Portfolio-0F172A?style=flat-square&logo=vercel&logoColor=white&labelColor=0F172A)](https://hassanraz-a.github.io/portfolio-/)&nbsp;&nbsp;
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0F172A?style=flat-square&logo=linkedin&logoColor=0A66C2&labelColor=0F172A)](https://www.linkedin.com/in/hassan-raza-212680202/)&nbsp;&nbsp;
 [![GitHub](https://img.shields.io/badge/GitHub-0F172A?style=flat-square&logo=github&logoColor=white&labelColor=0F172A)](https://github.com/HassanRaz-A)
 
 </div>
@@ -266,12 +265,11 @@ I keep wireless networks reliable, well-optimized, and increasingly automated â€
 
 <div align="center">
 
-<!-- TODO: replace the URLs below with your real LinkedIn and Portfolio links -->
-<a href="https://linkedin.com/in/YOUR-LINKEDIN">
+<a href="https://www.linkedin.com/in/hassan-raza-212680202/">
   <img src="https://img.shields.io/badge/LinkedIn-Connect-0F172A?style=for-the-badge&logo=linkedin&logoColor=0A66C2&labelColor=0F172A"/>
 </a>
 &nbsp;
-<a href="https://your-portfolio.com">
+<a href="https://hassanraz-a.github.io/portfolio-/">
   <img src="https://img.shields.io/badge/Portfolio-View_Work-0F172A?style=for-the-badge&logo=vercel&logoColor=white&labelColor=0F172A"/>
 </a>
 &nbsp;
