@@ -1,0 +1,222 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 960 280" width="960" height="280">
+  <defs>
+    <!-- Gradient definitions -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#050b18;stop-opacity:1"/>
+      <stop offset="50%" style="stop-color:#0a1628;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#060e1e;stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#8B5CF6;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#06B6D4;stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="glowGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#8B5CF6;stop-opacity:0.6"/>
+      <stop offset="50%" style="stop-color:#a78bfa;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#06B6D4;stop-opacity:0.6"/>
+    </linearGradient>
+    <linearGradient id="subtleGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#8B5CF6;stop-opacity:0.15"/>
+      <stop offset="100%" style="stop-color:#8B5CF6;stop-opacity:0"/>
+    </linearGradient>
+    <!-- Glow filter -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+    <filter id="textGlow">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <clipPath id="bannerClip">
+      <rect width="960" height="280" rx="0"/>
+    </clipPath>
+    <!-- Radial glow -->
+    <radialGradient id="radialGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#8B5CF6;stop-opacity:0.12"/>
+      <stop offset="100%" style="stop-color:#0a1628;stop-opacity:0"/>
+    </radialGradient>
+    <radialGradient id="cyanGlow" cx="80%" cy="60%" r="40%">
+      <stop offset="0%" style="stop-color:#06B6D4;stop-opacity:0.08"/>
+      <stop offset="100%" style="stop-color:#06B6D4;stop-opacity:0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="960" height="280" fill="url(#bgGrad)"/>
+
+  <!-- Radial ambient glows -->
+  <rect width="960" height="280" fill="url(#radialGlow)"/>
+  <rect width="960" height="280" fill="url(#cyanGlow)"/>
+
+  <!-- Grid lines - horizontal -->
+  <g opacity="0.06" stroke="#8B5CF6" stroke-width="0.5">
+    <line x1="0" y1="35" x2="960" y2="35"/>
+    <line x1="0" y1="70" x2="960" y2="70"/>
+    <line x1="0" y1="105" x2="960" y2="105"/>
+    <line x1="0" y1="140" x2="960" y2="140"/>
+    <line x1="0" y1="175" x2="960" y2="175"/>
+    <line x1="0" y1="210" x2="960" y2="210"/>
+    <line x1="0" y1="245" x2="960" y2="245"/>
+  </g>
+  <!-- Grid lines - vertical -->
+  <g opacity="0.04" stroke="#06B6D4" stroke-width="0.5">
+    <line x1="80" y1="0" x2="80" y2="280"/>
+    <line x1="160" y1="0" x2="160" y2="280"/>
+    <line x1="240" y1="0" x2="240" y2="280"/>
+    <line x1="320" y1="0" x2="320" y2="280"/>
+    <line x1="400" y1="0" x2="400" y2="280"/>
+    <line x1="480" y1="0" x2="480" y2="280"/>
+    <line x1="560" y1="0" x2="560" y2="280"/>
+    <line x1="640" y1="0" x2="640" y2="280"/>
+    <line x1="720" y1="0" x2="720" y2="280"/>
+    <line x1="800" y1="0" x2="800" y2="280"/>
+    <line x1="880" y1="0" x2="880" y2="280"/>
+  </g>
+
+  <!-- Corner bracket decorations -->
+  <g stroke="url(#accentGrad)" stroke-width="1.5" fill="none" opacity="0.7">
+    <!-- Top-left corner -->
+    <polyline points="20,40 20,20 40,20"/>
+    <!-- Top-right corner -->
+    <polyline points="920,40 920,20 900,20"/>
+    <!-- Bottom-left corner -->
+    <polyline points="20,240 20,260 40,260"/>
+    <!-- Bottom-right corner -->
+    <polyline points="920,240 920,260 900,260"/>
+  </g>
+
+  <!-- Horizontal accent line top -->
+  <rect x="60" y="20" width="840" height="1" fill="url(#accentGrad)" opacity="0.3"/>
+  <!-- Horizontal accent line bottom -->
+  <rect x="60" y="259" width="840" height="1" fill="url(#accentGrad)" opacity="0.3"/>
+
+  <!-- Animated scan line -->
+  <rect x="0" y="0" width="960" height="1.5" fill="url(#accentGrad)" opacity="0.5">
+    <animateTransform attributeName="transform" type="translate" from="0,0" to="0,280" dur="4s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.6;0.2;0.6" dur="4s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Left decorative column -->
+  <rect x="44" y="40" width="2" height="200" fill="url(#subtleGrad)" opacity="0.6"/>
+  <rect x="48" y="60" width="1" height="160" fill="#8B5CF6" opacity="0.15"/>
+
+  <!-- Right decorative column -->
+  <rect x="914" y="40" width="2" height="200" fill="url(#subtleGrad)" opacity="0.6"/>
+
+  <!-- Status dots top-right -->
+  <g transform="translate(848, 32)">
+    <circle cx="-3" cy="0" r="3.5" fill="#06B6D4" opacity="0.9">
+      <animate attributeName="opacity" values="0.9;0.3;0.9" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="12" cy="0" r="3.5" fill="#8B5CF6" opacity="0.7">
+      <animate attributeName="opacity" values="0.7;0.2;0.7" dur="2.6s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="30" cy="0" r="3.5" fill="#10b981" opacity="0.8">
+      <animate attributeName="opacity" values="0.8;0.25;0.8" dur="1.8s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- Label top-left -->
+  <text x="60" y="34" font-family="'Courier New', monospace" font-size="9" fill="#8B5CF6" opacity="0.5" letter-spacing="3">RF.DASHBOARD</text>
+
+  <!-- Version tag top right area -->
+  <text x="890" y="34" font-family="'Courier New', monospace" font-size="9" fill="#06B6D4" opacity="0.5" text-anchor="end" letter-spacing="2">v2026.1</text>
+
+  <!-- Main name — large typographic treatment -->
+  <text x="80" y="132" font-family="'Courier New', monospace" font-size="64" font-weight="700" fill="url(#glowGrad)" filter="url(#textGlow)" letter-spacing="-1" opacity="0.95">HASSAN RAZA</text>
+
+  <!-- Subtitle / role -->
+  <text x="82" y="160" font-family="'Courier New', monospace" font-size="14" fill="#94a3b8" letter-spacing="4">RF &amp; WIRELESS NETWORK ENGINEER</text>
+
+  <!-- Separator line under subtitle -->
+  <rect x="82" y="170" width="300" height="1" fill="url(#accentGrad)" opacity="0.5"/>
+
+  <!-- Engineering statement -->
+  <text x="82" y="192" font-family="'Courier New', monospace" font-size="11" fill="#64748b" letter-spacing="1.5">DAS DESIGN  ·  RF OPTIMIZATION  ·  PYTHON AUTOMATION</text>
+
+  <!-- Right panel: skill stack indicators -->
+  <g transform="translate(640, 70)">
+    <!-- Panel border -->
+    <rect x="0" y="0" width="260" height="160" rx="4" fill="#0a1628" stroke="#1e293b" stroke-width="1" opacity="0.8"/>
+    <rect x="0" y="0" width="260" height="1" rx="0" fill="url(#accentGrad)" opacity="0.6"/>
+
+    <!-- Panel header -->
+    <text x="14" y="20" font-family="'Courier New', monospace" font-size="9" fill="#8B5CF6" letter-spacing="3">CORE STACK</text>
+
+    <!-- Stack bars -->
+    <g font-family="'Courier New', monospace" font-size="10" fill="#94a3b8">
+      <!-- RF & DAS -->
+      <text x="14" y="44">RF &amp; DAS</text>
+      <rect x="100" y="33" width="148" height="4" rx="2" fill="#1e293b"/>
+      <rect x="100" y="33" width="142" height="4" rx="2" fill="url(#accentGrad)" opacity="0.9">
+        <animate attributeName="width" from="0" to="142" dur="1.2s" fill="freeze" calcMode="spline" keySplines="0.4 0 0.2 1"/>
+      </rect>
+
+      <!-- Optimization -->
+      <text x="14" y="66">Optimization</text>
+      <rect x="100" y="55" width="148" height="4" rx="2" fill="#1e293b"/>
+      <rect x="100" y="55" width="132" height="4" rx="2" fill="url(#accentGrad)" opacity="0.8">
+        <animate attributeName="width" from="0" to="132" dur="1.4s" fill="freeze" calcMode="spline" keySplines="0.4 0 0.2 1"/>
+      </rect>
+
+      <!-- Python -->
+      <text x="14" y="88">Python</text>
+      <rect x="100" y="77" width="148" height="4" rx="2" fill="#1e293b"/>
+      <rect x="100" y="77" width="136" height="4" rx="2" fill="url(#accentGrad)" opacity="0.75">
+        <animate attributeName="width" from="0" to="136" dur="1.6s" fill="freeze" calcMode="spline" keySplines="0.4 0 0.2 1"/>
+      </rect>
+
+      <!-- Data / ML -->
+      <text x="14" y="110">Data / ML</text>
+      <rect x="100" y="99" width="148" height="4" rx="2" fill="#1e293b"/>
+      <rect x="100" y="99" width="112" height="4" rx="2" fill="url(#accentGrad)" opacity="0.7">
+        <animate attributeName="width" from="0" to="112" dur="1.8s" fill="freeze" calcMode="spline" keySplines="0.4 0 0.2 1"/>
+      </rect>
+
+      <!-- Automation -->
+      <text x="14" y="132">Automation</text>
+      <rect x="100" y="121" width="148" height="4" rx="2" fill="#1e293b"/>
+      <rect x="100" y="121" width="124" height="4" rx="2" fill="url(#accentGrad)" opacity="0.8">
+        <animate attributeName="width" from="0" to="124" dur="2s" fill="freeze" calcMode="spline" keySplines="0.4 0 0.2 1"/>
+      </rect>
+    </g>
+
+    <!-- Panel footer label -->
+    <text x="14" y="153" font-family="'Courier New', monospace" font-size="8" fill="#334155" letter-spacing="2">PROFICIENCY INDEX</text>
+  </g>
+
+  <!-- Bottom status bar -->
+  <g transform="translate(0, 234)">
+    <rect x="60" y="0" width="840" height="28" rx="3" fill="#0d1b2a" opacity="0.7"/>
+    <text x="76" y="18" font-family="'Courier New', monospace" font-size="9" fill="#334155" letter-spacing="2">STATUS</text>
+    <circle cx="124" cy="15" r="3" fill="#10b981">
+      <animate attributeName="opacity" values="1;0.4;1" dur="2.5s" repeatCount="indefinite"/>
+    </circle>
+    <text x="129" y="18" font-family="'Courier New', monospace" font-size="9" fill="#10b981" letter-spacing="1">OPEN TO COLLABORATION</text>
+
+    <text x="380" y="18" font-family="'Courier New', monospace" font-size="9" fill="#334155" letter-spacing="2">FOCUS</text>
+    <text x="419" y="18" font-family="'Courier New', monospace" font-size="9" fill="#8B5CF6" letter-spacing="1">RF OPTIMIZATION &amp; AI/ML</text>
+
+    <text x="700" y="18" font-family="'Courier New', monospace" font-size="9" fill="#334155" letter-spacing="2">TECH</text>
+    <text x="732" y="18" font-family="'Courier New', monospace" font-size="9" fill="#06B6D4" letter-spacing="1">5G · LTE · DAS</text>
+  </g>
+
+  <!-- Decorative circuit nodes -->
+  <g opacity="0.2">
+    <circle cx="560" cy="70" r="2" fill="#8B5CF6"/>
+    <circle cx="580" cy="70" r="1.5" fill="#8B5CF6"/>
+    <line x1="562" y1="70" x2="578" y2="70" stroke="#8B5CF6" stroke-width="0.8"/>
+    <circle cx="580" cy="100" r="1.5" fill="#06B6D4"/>
+    <line x1="580" y1="71.5" x2="580" y2="98.5" stroke="#06B6D4" stroke-width="0.8"/>
+    <circle cx="600" cy="100" r="2" fill="#06B6D4"/>
+    <line x1="581.5" y1="100" x2="598" y2="100" stroke="#06B6D4" stroke-width="0.8"/>
+  </g>
+</svg>

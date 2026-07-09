@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 200" width="960" height="200">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#050b18"/>
+      <stop offset="50%" style="stop-color:#0a1628"/>
+      <stop offset="100%" style="stop-color:#060e1e"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#8B5CF6"/>
+      <stop offset="100%" style="stop-color:#06B6D4"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="960" height="200" rx="6" fill="url(#bg)"/>
+  <rect width="960" height="2" fill="url(#accent)" opacity="0.7"/>
+
+  <text x="480" y="80" text-anchor="middle" font-family="'Courier New', monospace" font-size="16" fill="#8B5CF6" letter-spacing="4">GITHUB METRICS</text>
+  <text x="480" y="112" text-anchor="middle" font-family="'Courier New', monospace" font-size="12" fill="#64748b" letter-spacing="1">Generating on first workflow run…</text>
+
+  <g transform="translate(430, 138)">
+    <circle cx="0" cy="0" r="4" fill="#8B5CF6">
+      <animate attributeName="opacity" values="1;0.2;1" dur="1.2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="20" cy="0" r="4" fill="#a78bfa">
+      <animate attributeName="opacity" values="1;0.2;1" dur="1.2s" begin="0.2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="40" cy="0" r="4" fill="#06B6D4">
+      <animate attributeName="opacity" values="1;0.2;1" dur="1.2s" begin="0.4s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <text x="480" y="176" text-anchor="middle" font-family="'Courier New', monospace" font-size="9" fill="#334155" letter-spacing="2">RUN THE "METRICS" ACTION TO POPULATE THIS PANEL</text>
+</svg>

@@ -1,23 +1,129 @@
-<!-- 👋 Header -->
-  # Hi There, I'm Hassan Raza 👋
+<div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&duration=2000&pause=300&color=10B981&center=true&vCenter=true&width=800&lines=RF+%26+Wireless+Network+Engineer;DAS+Design+%26+Optimization+Specialist;Python+Automation+%26+Data+Engineer;AI%2FML+Enthusiast+for+Wireless+Systems;Aspiring+Telecom+Solutions+Architect)](https://git.io/typing-svg)
+<img src=".github/assets/banner.svg" alt="Hassan Raza — RF & Wireless Network Engineer" width="100%"/>
 
----
+</div>
 
-# 💻 Tech Stack: 
+<img src=".github/assets/separator.svg" width="100%"/>
 
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
-![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
-![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
-![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white)
-![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white)
-![MATLAB](https://img.shields.io/badge/MATLAB-0076A8.svg?style=for-the-badge&logo=mathworks&logoColor=white)
-![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
-![Bash Script](https://img.shields.io/badge/bash_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white)
-![PowerShell](https://img.shields.io/badge/PowerShell-%235391FE.svg?style=for-the-badge&logo=powershell&logoColor=white)
-![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white)
+<br/>
+
+<div align="center">
+
+<!-- TODO: replace the URLs below with your real Portfolio and LinkedIn links -->
+[![Portfolio](https://img.shields.io/badge/Portfolio-0F172A?style=flat-square&logo=vercel&logoColor=white&labelColor=0F172A)](https://your-portfolio.com)&nbsp;&nbsp;
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0F172A?style=flat-square&logo=linkedin&logoColor=0A66C2&labelColor=0F172A)](https://linkedin.com/in/YOUR-LINKEDIN)&nbsp;&nbsp;
+[![GitHub](https://img.shields.io/badge/GitHub-0F172A?style=flat-square&logo=github&logoColor=white&labelColor=0F172A)](https://github.com/HassanRaz-A)
+
+</div>
+
+<br/>
+
+<img src=".github/assets/separator-thin.svg" width="100%"/>
+
+<br/>
+
+## `> whoami`
+
+```typescript
+const engineer = {
+  name: "Hassan Raza",
+  role: "RF & Wireless Network Engineer",
+  focus: "DAS Design · Optimization · Python Automation",
+
+  rf: ["DAS Design", "iBwave", "5G / LTE", "In-Building Coverage", "Drive Testing"],
+  analysis: ["TEMS Investigation", "Gladiator", "Wireshark", "KPI Post-Processing"],
+  automation: ["Python", "Pandas", "NumPy", "Plotly", "Bash"],
+  ml: ["TensorFlow", "PyTorch", "scikit-learn", "Anomaly Detection"],
+
+  currentlyBuilding:
+    "Python automation & ML models for wireless network optimization",
+  openTo: ["Collaboration", "Telecom / RF projects", "Wireless + AI research"],
+
+  philosophy: [
+    "Let the drive-test data decide, not assumptions",
+    "Automate the repetitive, focus on the exceptions",
+    "Bridge classical RF engineering with modern data science",
+  ],
+} as const;
+```
+
+<br/>
+<img src=".github/assets/separator-thin.svg" width="100%"/>
+
+## `> engineering-principles`
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+**`[ RF Design ]`**
+
+- Coverage and capacity planned together
+- iBwave modeling grounded in real link budgets
+- Interference mitigation by design, not patch
+- Topology and assumptions documented up front
+
+</td>
+<td width="50%" valign="top">
+
+**`[ Optimization ]`**
+
+- Data-driven tuning from drive-test KPIs
+- Minimize dropped calls, maximize throughput
+- Validate changes against measured results
+- Repeatable, reviewable optimization workflows
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+**`[ Automation ]`**
+
+- Turn manual KPI analysis into scripts
+- Parse logs and generate reports in minutes
+- Version-controlled, reproducible pipelines
+- Clear visualizations over raw log dumps
+
+</td>
+<td width="50%" valign="top">
+
+**`[ Data & ML ]`**
+
+- Clean, trustworthy data before modeling
+- Anomaly detection on RF KPIs
+- Signal prediction and intelligent planning
+- Practical models that inform real decisions
+
+</td>
+</tr>
+</table>
+
+<br/>
+<img src=".github/assets/separator.svg" width="100%"/>
+
+## `> core-stack`
+
+<div align="center">
+
+#### Languages
+
+<img src="https://skillicons.dev/icons?i=python,matlab,cpp,c,js,ts,bash" height="40"/>
+
+#### Data &amp; Machine Learning
+
+<img src="https://skillicons.dev/icons?i=tensorflow,pytorch,sklearn,opencv" height="40"/>
+
+#### Web &amp; APIs
+
+<img src="https://skillicons.dev/icons?i=fastapi,flask,django,react,nodejs" height="40"/>
+
+#### Cloud &amp; Infrastructure
+
+<img src="https://skillicons.dev/icons?i=aws,azure,gcp,docker,linux,git,github" height="40"/>
+
+#### RF &amp; Wireless Toolkit
 
 ![5G](https://img.shields.io/badge/5G-FF1744?style=for-the-badge&logo=5g&logoColor=white)
 ![LTE](https://img.shields.io/badge/LTE-2196F3?style=for-the-badge&logo=cellsignal&logoColor=white)
@@ -26,98 +132,167 @@
 ![TEMS](https://img.shields.io/badge/TEMS_Investigation-0078D4?style=for-the-badge&logo=cellsignal&logoColor=white)
 ![Gladiator](https://img.shields.io/badge/Gladiator-8B0000?style=for-the-badge&logo=shield&logoColor=white)
 ![Wireshark](https://img.shields.io/badge/Wireshark-1679A7.svg?style=for-the-badge&logo=Wireshark&logoColor=white)
-![RF](https://img.shields.io/badge/RF_Engineering-FF6600?style=for-the-badge&logo=radio&logoColor=white)
 
-![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)
-![Flask](https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white)
-![Django](https://img.shields.io/badge/django-%23092E20.svg?style=for-the-badge&logo=django&logoColor=white)
-![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=Streamlit&logoColor=white)
-![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
-![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB)
-![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
-![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white)
-![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
+</div>
 
-![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white)
-![Keras](https://img.shields.io/badge/Keras-%23D00000.svg?style=for-the-badge&logo=Keras&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)
-![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white)
-![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black)
-![Plotly](https://img.shields.io/badge/Plotly-%233F4F75.svg?style=for-the-badge&logo=plotly&logoColor=white)
-![OpenCV](https://img.shields.io/badge/opencv-%23white.svg?style=for-the-badge&logo=opencv&logoColor=white)
-![SciPy](https://img.shields.io/badge/SciPy-%230C55A5.svg?style=for-the-badge&logo=scipy&logoColor=%white)
+<br/>
+<img src=".github/assets/separator-thin.svg" width="100%"/>
 
-![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)
-![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)
-![Firebase](https://img.shields.io/badge/firebase-%23039BE5.svg?style=for-the-badge&logo=firebase)
+## `> current-focus`
 
-![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)
-![Azure](https://img.shields.io/badge/azure-%230072C6.svg?style=for-the-badge&logo=microsoftazure&logoColor=white)
-![Google Cloud](https://img.shields.io/badge/GoogleCloud-%234285F4.svg?style=for-the-badge&logo=google-cloud&logoColor=white)
-![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/kubernetes-%23326ce5.svg?style=for-the-badge&logo=kubernetes&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)
+```sh
+$ hassan status --verbose
 
-![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/github%20actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white)
-![VS Code](https://img.shields.io/badge/VSCode-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white)
-![PyCharm](https://img.shields.io/badge/pycharm-143?style=for-the-badge&logo=pycharm&logoColor=black&color=black&labelColor=green)
-![Jupyter](https://img.shields.io/badge/jupyter-%23FA0F00.svg?style=for-the-badge&logo=jupyter&logoColor=white)
-![Anaconda](https://img.shields.io/badge/Anaconda-%2344A833.svg?style=for-the-badge&logo=anaconda&logoColor=white)
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
-![Notion](https://img.shields.io/badge/Notion-%23000000.svg?style=for-the-badge&logo=notion&logoColor=white)
-![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)
-![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?style=for-the-badge&logo=Canva&logoColor=white)
+[✓] Optimizing  → DAS coverage & capacity with iBwave
+[✓] Analyzing   → Drive-test KPIs (TEMS, Gladiator, Wireshark)
+[✓] Automating  → RF post-processing pipelines in Python
+[✓] Exploring   → AI/ML for signal prediction & anomaly detection
+[~] Next        → Intelligent, data-driven coverage planning
 
----
+uptime: reliable networks · faster analysis · smarter optimization
+```
 
-![Hassan's GitHub Contribution Snake](https://raw.githubusercontent.com/HassanRaz-A/HassanRaz-A/output/github-snake.svg)
+<br/>
+<img src=".github/assets/separator.svg" width="100%"/>
 
-### 🚀 How I Drive Impact
+## `> how-i-drive-impact`
 
-> **📡 RF Network Optimization:** Designed and optimized Distributed Antenna Systems (DAS) for in-building and venue coverage using iBwave, improving signal quality and reducing dropped-call rates across enterprise deployments.
->
-> **📊 KPI Analysis & Drive Testing:** Conducted RF post-processing with TEMS Investigation, Gladiator, and Wireshark — turning raw drive-test logs into actionable insights for network planning teams.
->
-> **🐍 Python Automation:** Built automation scripts that cut hours of manual KPI analysis down to minutes — parsing logs, generating reports, and visualizing wireless performance data with Pandas, NumPy, and Plotly.
->
-> **🤖 AI/ML for Wireless Systems:** Exploring machine-learning models for signal prediction, anomaly detection in RF KPIs, and intelligent coverage planning — bridging classical RF engineering with modern data science.
+<div align="center">
 
----
+<table>
+<tr>
+<td width="50%" valign="top">
 
-### 📊 GitHub Analytics
+### 📡 RF Network Optimization
 
-| ![Hassan's GitHub Stats](https://github-readme-stats.shion.dev/api?username=HassanRaz-A&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true) | ![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=HassanRaz-A&theme=tokyonight&hide_border=true) |
-| --- | --- |
+`iBwave` `DAS` `5G / LTE`
 
-![Top Languages](https://github-readme-stats.shion.dev/api/top-langs/?username=HassanRaz-A&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&layout=compact)
+> Designed and optimized Distributed Antenna Systems for in-building and venue coverage — improving signal quality and reducing dropped-call rates across enterprise deployments.
 
-### 🏆 GitHub Trophies
+</td>
+<td width="50%" valign="top">
 
-![GitHub Trophies](https://github-profile-trophy.vercel.app/?username=HassanRaz-A&theme=tokyonight&no-frame=true&no-bg=true&row=1&column=7)
+### 📊 KPI Analysis & Drive Testing
 
----
+`TEMS` `Gladiator` `Wireshark`
 
-### ✍️ Random Dev Quote
+> Conducted RF post-processing on drive-test logs, turning raw measurements into actionable insights for network planning teams.
 
-![Quote](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight)
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
 
----
+### 🐍 Python Automation
 
-### 🤝 Connect with Me
+`Pandas` `NumPy` `Plotly`
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white&style=for-the-badge)](https://linkedin.com/in/YOUR-LINKEDIN)
-[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:YOUR-EMAIL@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white&style=for-the-badge)](https://github.com/HassanRaz-A)
+> Built automation that cut hours of manual KPI analysis down to minutes — parsing logs, generating reports, and visualizing wireless performance data.
 
----
+</td>
+<td width="50%" valign="top">
 
-![Profile Views](https://komarev.com/ghpvc/?username=HassanRaz-A&label=Profile%20Views&color=10B981&style=for-the-badge)
+### 🤖 AI/ML for Wireless
 
-⭐ **From [HassanRaz-A](https://github.com/HassanRaz-A) — Thanks for visiting!**
+`TensorFlow` `PyTorch` `scikit-learn`
+
+> Exploring ML models for signal prediction, anomaly detection in RF KPIs, and intelligent coverage planning — bridging RF engineering with data science.
+
+</td>
+</tr>
+</table>
+
+</div>
+
+<br/>
+<img src=".github/assets/separator.svg" width="100%"/>
+
+## `> metrics-dashboard`
+
+<div align="center">
+
+<img src="github-metrics.svg" alt="GitHub Metrics" width="100%"/>
+
+</div>
+
+<br/>
+
+### Contribution Snake
+
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/HassanRaz-A/HassanRaz-A/output/github-snake-dark.svg" alt="Contribution Snake" width="100%"/>
+
+</div>
+
+<br/>
+
+### Contribution Activity
+
+<div align="center">
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=HassanRaz-A&bg_color=050b18&color=8B5CF6&line=06B6D4&point=ffffff&area_color=8B5CF620&area=true&hide_border=true&custom_title=Contribution%20Graph" width="100%"/>
+
+</div>
+
+<br/>
+
+### Analytics
+
+<div align="center">
+
+<img src="https://streak-stats.demolab.com?user=HassanRaz-A&theme=transparent&hide_border=true&ring=8B5CF6&fire=06B6D4&currStreakLabel=8B5CF6&sideLabels=64748b&currStreakNum=e2e8f0&sideNums=94a3b8&dates=475569&background=050b18" width="60%"/>
+
+</div>
+
+<br/>
+<img src=".github/assets/separator-thin.svg" width="100%"/>
+
+## `> areas-of-focus`
+
+<div align="center">
+
+I keep wireless networks reliable, well-optimized, and increasingly automated — pairing hands-on RF engineering with Python and machine learning to turn measurement data into better coverage.
+
+**Open to:**
+&nbsp;&nbsp;`RF optimization` &nbsp;·&nbsp; `DAS design` &nbsp;·&nbsp; `Network automation` &nbsp;·&nbsp; `Telecom data / AI` &nbsp;·&nbsp; `Collaboration`
+
+</div>
+
+<br/>
+<img src=".github/assets/separator-thin.svg" width="100%"/>
+
+## `> connect`
+
+<div align="center">
+
+<!-- TODO: replace the URLs below with your real LinkedIn and Portfolio links -->
+<a href="https://linkedin.com/in/YOUR-LINKEDIN">
+  <img src="https://img.shields.io/badge/LinkedIn-Connect-0F172A?style=for-the-badge&logo=linkedin&logoColor=0A66C2&labelColor=0F172A"/>
+</a>
+&nbsp;
+<a href="https://your-portfolio.com">
+  <img src="https://img.shields.io/badge/Portfolio-View_Work-0F172A?style=for-the-badge&logo=vercel&logoColor=white&labelColor=0F172A"/>
+</a>
+&nbsp;
+<a href="https://github.com/HassanRaz-A">
+  <img src="https://img.shields.io/badge/GitHub-HassanRaz--A-0F172A?style=for-the-badge&logo=github&logoColor=white&labelColor=0F172A"/>
+</a>
+
+</div>
+
+<br/>
+
+<img src=".github/assets/separator.svg" width="100%"/>
+
+<div align="center">
+
+```
+Engineering reliable wireless networks with precision, data, and automation.
+```
+
+<sub>
+  <code>Metrics update automatically every 12h via GitHub Actions · Snake regenerates daily</code>
+</sub>
+
+</div>

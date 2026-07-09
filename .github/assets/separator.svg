@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 12" width="960" height="12">
+  <defs>
+    <linearGradient id="sepGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#050b18;stop-opacity:1"/>
+      <stop offset="20%" style="stop-color:#8B5CF6;stop-opacity:0.8"/>
+      <stop offset="50%" style="stop-color:#06B6D4;stop-opacity:1"/>
+      <stop offset="80%" style="stop-color:#8B5CF6;stop-opacity:0.8"/>
+      <stop offset="100%" style="stop-color:#050b18;stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="glowSep" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#050b18;stop-opacity:0"/>
+      <stop offset="30%" style="stop-color:#8B5CF6;stop-opacity:0.3"/>
+      <stop offset="50%" style="stop-color:#06B6D4;stop-opacity:0.5"/>
+      <stop offset="70%" style="stop-color:#8B5CF6;stop-opacity:0.3"/>
+      <stop offset="100%" style="stop-color:#050b18;stop-opacity:0"/>
+    </linearGradient>
+    <linearGradient id="movingGlow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#8B5CF6;stop-opacity:0"/>
+      <stop offset="50%" style="stop-color:#a78bfa;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#8B5CF6;stop-opacity:0"/>
+      <animateTransform attributeName="gradientTransform" type="translate" from="-1 0" to="1 0" dur="3s" repeatCount="indefinite"/>
+    </linearGradient>
+    <filter id="blur">
+      <feGaussianBlur stdDeviation="2"/>
+    </filter>
+  </defs>
+  <!-- Glow layer -->
+  <rect x="0" y="3" width="960" height="6" fill="url(#glowSep)" filter="url(#blur)"/>
+  <!-- Main line -->
+  <rect x="0" y="5" width="960" height="1.5" fill="url(#sepGrad)"/>
+  <!-- Moving highlight -->
+  <rect x="-200" y="4.5" width="200" height="2.5" fill="url(#movingGlow)" opacity="0.8">
+    <animateTransform attributeName="transform" type="translate" from="-200,0" to="1160,0" dur="3s" repeatCount="indefinite" calcMode="linear"/>
+  </rect>
+  <!-- Center node -->
+  <circle cx="480" cy="6" r="3" fill="#06B6D4" opacity="0.9">
+    <animate attributeName="opacity" values="0.9;0.4;0.9" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <!-- Left node -->
+  <circle cx="160" cy="6" r="1.5" fill="#8B5CF6" opacity="0.6">
+    <animate attributeName="opacity" values="0.6;0.2;0.6" dur="2.4s" repeatCount="indefinite"/>
+  </circle>
+  <!-- Right node -->
+  <circle cx="800" cy="6" r="1.5" fill="#8B5CF6" opacity="0.6">
+    <animate attributeName="opacity" values="0.6;0.2;0.6" dur="2.4s" repeatCount="indefinite"/>
+  </circle>
+</svg>
