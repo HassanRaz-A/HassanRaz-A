@@ -28,7 +28,7 @@
 const engineer = {
   name: "Hassan Raza",
   role: "RF & Wireless Network Engineer",
-  focus: "DAS Design · Optimization · Python Automation",
+  focus: "DAS Design · Optimization · Python Automation · Machine Learning",
 
   rf: ["DAS Design", "iBwave", "5G / LTE", "In-Building Coverage", "Drive Testing"],
   analysis: ["TEMS Investigation", "Gladiator", "Wireshark", "KPI Post-Processing"],
